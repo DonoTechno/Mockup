@@ -1,0 +1,105 @@
+body {
+  background-color: #ecf0f1;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.no-padding {
+  padding: 0;
+}
+#nav-vertical {
+  height: 100vh;
+  background-color: #3e4750;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+#nav-vertical header {
+  background-color: #333a42;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#nav-vertical header h1 {
+  color: white;
+  font-size: 23px;
+  margin: 0;
+  font-weight: normal;
+}
+#nav-vertical .menu-nav {
+  border-bottom: 1px solid #54606d;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 20px 0;
+}
+#nav-vertical .menu-nav a {
+  width: 100%;
+  text-decoration: none;
+}
+#nav-vertical .menu-nav a li {
+  color: #788796;
+  padding: 6px;
+  font-size: 12px;
+  width: 100%;
+  transition-duration: 0.3s;
+}
+#nav-vertical .menu-nav a li:hover {
+  background-color: #3a424a;
+  transition-duration: 0.4s;
+}
+#nav-vertical .menu-nav.no-border {
+  border-bottom: none;
+}
+#nav-vertical .btn-nav {
+  background-color: transparent;
+  color: #95c2cb;
+  border: 1px solid #95c2cb;
+  font-weight: lighter;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition-duration: 0.3s;
+}
+#nav-vertical .btn-nav:hover {
+  color: white;
+  transition-duration: 1s;
+  box-shadow: inset 0px 0px 50px #95c2cb;
+}
+#header-content {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+#header-content header {
+  background-color: #ebaf3d;
+  height: 60px;
+}
+#header-other {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+#header-other header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ecf0f1;
+  height: 60px;
+}
+#header-other p {
+  font-size: 11px;
+  color: #788796;
+}
